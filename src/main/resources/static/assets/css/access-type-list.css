@@ -1,0 +1,77 @@
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.access-type-container {
+    padding: 20px;
+}
+
+/* Stats Section */
+.search-container {
+    margin-bottom: 20px;
+    text-align : right;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.new-access-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-access-btn:hover {
+    background-color: #45a049;
+}
+
+/* Table Styles */
+table.display {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.display th, table.display td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table.display th {
+    background-color: #f2f2f2;
+}
+
+
+.user-tag {
+    background-color: #e7e5ff;
+    color: #6b46c1;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 5px;
+    display: inline-block;
+}
+

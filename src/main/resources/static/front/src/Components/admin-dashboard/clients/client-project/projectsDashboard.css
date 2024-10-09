@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 95%;
+    margin:  auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #f3f4f6;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-project {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-project:hover {
+    background-color: #45a049;
+}
+
+.status-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.status-item {
+    text-align: center;
+    width: 18%;
+}
+
+.status-count {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.no-started .status-count {
+    color: #000;
+}
+
+.in-progress .status-count {
+    color: blue;
+}
+
+.on-hold .status-count {
+    color: red;
+}
+
+.cancelled .status-count {
+    color: gray;
+}
+
+.completed .status-count {
+    color: green;
+}
+
+.member-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.in-progress {
+    color: blue;
+}
+
+.on-hold {
+    color: red;
+}
+
+.completed {
+    color: green;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit-btn {
+    color: blue;
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
+    

@@ -1,0 +1,27 @@
+.client-add-task-container {
+    width: 100%;
+    max-width: 95%;
+    margin:  auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #f3f4f6;
+}
+        .progress-label {
+            margin-left: 10px;
+        }
+        .select2-container {
+            width: 100% !important;
+        }
+        .custom-checkbox {
+            margin-top: 15px;
+        }
+        .task-btn-save {
+            background-color: #0056b3;
+            color: white;
+            float: right;
+        }
+        .modal-content {
+            padding: 20px;
+        }

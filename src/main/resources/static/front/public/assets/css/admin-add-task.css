@@ -1,0 +1,53 @@
+  .client-add-task-container {
+    width: 100%;
+    max-width: 95%;
+    margin:  auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #f3f4f6;
+}
+        .progress-label {
+            margin-left: 10px;
+        }
+        .select2-container {
+            width: 100% !important;
+        }
+        .custom-checkbox {
+            margin-top: 15px;
+        }
+        .task-btn-save {
+            background-color: #0056b3;
+            color: white;
+            float: right;
+        }
+        .modal-content {
+            padding: 20px;
+        }
+        .back-to-task-list-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-to-task-list-btn:hover {
+    background-color: #45a049;
+}
+.back-to-task-list-btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.back-to-task-list-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
